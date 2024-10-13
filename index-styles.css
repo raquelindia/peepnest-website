@@ -1,0 +1,19 @@
+* {
+
+}
+#background-file {
+position: absolute;
+z-index: -1;
+
+}
+.content {
+position: absolute;
+z-index: 30000;
+background-color: none;
+
+
+}
+
+body {
+    background-color: #1b1b1b;
+}
