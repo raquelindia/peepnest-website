@@ -5,29 +5,38 @@
     </head>
     <body>
 
-        <div>
-            <div>
+        <div style="width: 100vw;">
+            <div class="my-4">
                 <nav>
-                    <ul>
+                    <ul class="flex gap-8 justify-center">
                     <li><a href="">Home</a></li>
                     <li><a href="">Contact</a></li>
                     </ul>
             </nav>
         </div>
-            <div id="home-div">
+
+
+            <div style="width: 80%" class="flex mt-28 mx-24" id="home-div">
                 <div>
-                    <div><h1>Perfect app to
+                    <div><h1 class="text-4xl font-semibold">Perfect app to
                         <br>
                         Boost your business
                     </h1>
                 </div>
 
+                <div class="my-6">
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="https://peepnest.com/"><button class="py-2 px-4 text-sm" style="background-color: none; border-radius: 18px; border: 2px solid #C7A348;">Get App Now</button></a>
                 </div>
-                <div><button style="background-color: none;">Get App Now</button></div>
                 </div>
-                    <div ng-include="'./home-files/components/phoneOne.html'"></div>
+                   
+
+                <div class="flex gap-40">
+                    <div style="border-radius: 14px; width: 8%; box-shadow: -2px 0px 6px 0px rgba(203, 203, 203, 0.43);" ng-include="'./home-files/components/phoneOne.html'"></div>
+                    <div style="border-radius: 14px; width: 8%; box-shadow: -4px 0px 6px 0px rgba(199, 199, 199, 0.43);" ng-include="'./home-files/components/phoneTwo.html'"></div>
+                </div>
                
             </div>
 
